@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://tympanus.net/Tutorials/SwatchBook/index5.html -->
+<html lang="en" class=" js cssanimations csstransforms csstransforms3d csstransitions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<title>Swatch Book with CSS3 and jQuery</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="description" content="Animated Swatch Book with CSS3 and jQuery">
+		<meta name="keywords" content="swatch book, css3, jquery, animated, rotation, transition, folding fan">
+		<meta name="author" content="Codrops">
+		<link rel="shortcut icon" href="https://tympanus.net/Tutorials/favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="./Swatch Book with CSS3 and jQuery_files/demo.css">
+		<link rel="stylesheet" type="text/css" href="./Swatch Book with CSS3 and jQuery_files/style5.css">
+		<link href="./Swatch Book with CSS3 and jQuery_files/css" rel="stylesheet" type="text/css">
+		<script src="./Swatch Book with CSS3 and jQuery_files/quant.js.descarga" async="" type="text/javascript"></script><script type="text/javascript" async="" src="./Swatch Book with CSS3 and jQuery_files/ga.js.descarga"></script><script type="text/javascript" src="./Swatch Book with CSS3 and jQuery_files/modernizr.custom.79639.js.descarga"></script> 
+		<!--[if lte IE 8]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-7243260-2']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+	<link rel="stylesheet" type="text/css" href="./Swatch Book with CSS3 and jQuery_files/demoadpacks.css"><script id="_carbonads_projs" type="text/javascript" src="./Swatch Book with CSS3 and jQuery_files/C6AILKT.json"></script></head>
+	<body>
+		<div class="container">
+		
+			<!-- Codrops top bar -->
+			<div class="codrops-top clearfix">
+                <a href="http://tympanus.net/Development/3DPanelLayout/">
+                    <strong>« Previous Demo: </strong>3D Panel Layout
+                </a>
+                <span class="right">
+					<a href="http://fontello.com/">Icon Font made with Fontello</a>
+                    <a href="http://tympanus.net/codrops/2012/07/02/swatch-book-with-css3-and-jquery/">
+                        <strong>Back to the Codrops Article</strong>
+                    </a>
+                </span>
+            </div><!--/ Codrops top bar -->
+			
+			<header>
+			
+				<h1><span>Swatch Book</span> with CSS3 &amp; jQuery</h1>
+				<h2>Fun with skeuomorphism &amp; CSS3 rotations</h2>
+				
+				<nav class="codrops-demos">
+					<a href="https://tympanus.net/Tutorials/SwatchBook/index.html">Demo 1</a>
+					<a href="https://tympanus.net/Tutorials/SwatchBook/index2.html">Demo 2</a>
+					<a href="https://tympanus.net/Tutorials/SwatchBook/index3.html">Demo 3</a>
+					<a href="https://tympanus.net/Tutorials/SwatchBook/index4.html">Demo 4</a>
+					<a class="current-demo" href="https://tympanus.net/Tutorials/SwatchBook/index5.html">Demo 5</a>
+				</nav>
+				
+				<div class="support-note"><!-- let's check browser support with modernizr -->
+					<!--span class="no-cssanimations">CSS animations are not supported in your browser</span-->
+					<span class="no-csstransforms">CSS transforms are not supported in your browser</span>
+					<!--span class="no-csstransforms3d">CSS 3D transforms are not supported in your browser</span-->
+					<span class="no-csstransitions">CSS transitions are not supported in your browser</span>
+					<span class="note-ie">Sorry, only modern browsers.</span>
+				</div>
+				
+			</header>
+			
+			<section class="main">
+			
+				<div id="sb-container" class="sb-container">
+				
+					<div class="" style="transition: all 700ms ease; transform: rotate(-8deg);">
+						<span class="sb-icon icon-cog"></span>
+						<h4><a href="https://tympanus.net/Tutorials/SwatchBook/index5.html#">All Settings</a></h4>
+					</div>
+					<div style="transition: all 700ms ease; transform: rotate(0deg);" class="ff-active">
+						<span class="sb-icon icon-flight"></span>
+						<h4><a href="https://tympanus.net/Tutorials/SwatchBook/index5.html#">User Modes</a></h4>
+					</div>	
+					<div style="transition: all 700ms ease; transform: rotate(41deg);">
+						<span class="sb-icon icon-eye"></span>
+						<h4><a href="https://tympanus.net/Tutorials/SwatchBook/index5.html#">Browse All</a></h4>
+					</div>	
+					<div style="transition: all 700ms ease; transform: rotate(45deg);">
+						<span class="sb-icon icon-install"></span>
+						<h4><a href="https://tympanus.net/Tutorials/SwatchBook/index5.html#">Install App</a></h4>
+					</div>	
+					<div style="transition: all 700ms ease; transform: rotate(49deg);">
+						<span class="sb-icon icon-bag"></span>
+						<h4><a href="https://tympanus.net/Tutorials/SwatchBook/index5.html#">Productivity</a></h4>
+					</div>	
+					<div style="transition: all 700ms ease; transform: rotate(53deg);">
+						<span class="sb-icon icon-globe"></span>
+						<h4><a href="https://tympanus.net/Tutorials/SwatchBook/index5.html#">All Options</a></h4>
+					</div>	
+					<div style="transition: all 700ms ease; transform: rotate(57deg);">
+						<span class="sb-icon icon-picture"></span>
+						<h4><a href="https://tympanus.net/Tutorials/SwatchBook/index5.html#">User Images</a></h4>											
+					</div>	
+					<div style="transition: all 700ms ease; transform: rotate(61deg);">
+						<span class="sb-icon icon-video"></span>
+						<h4><a href="https://tympanus.net/Tutorials/SwatchBook/index5.html#">User Videos</a></h4>											
+					</div>	
+					<div style="transition: all 700ms ease; transform: rotate(65deg);">
+						<span class="sb-icon icon-download"></span>
+						<h4><a href="https://tympanus.net/Tutorials/SwatchBook/index5.html#">Download App</a></h4>											
+					</div>	
+					<div style="transition: all 700ms ease; transform: rotate(69deg);">
+						<span class="sb-icon icon-mobile"></span>
+						<h4><a href="https://tympanus.net/Tutorials/SwatchBook/index5.html#">Mobile Theme</a></h4>											
+					</div>
+					<div style="transition: all 700ms ease; transform: rotate(73deg);">
+						<span class="sb-icon icon-camera"></span>
+						<h4><a href="https://tympanus.net/Tutorials/SwatchBook/index5.html#">Digital App</a></h4>											
+					</div>
+					<div style="transition: all 700ms ease; transform: rotate(77deg);">
+						<h4><span>Profile</span></h4>
+						<h5><span>We ♥ color</span></h5>											
+					</div>
+					
+					
+				</div><!-- sb-container -->
+				
+			</section>
+			
+        </div>
+        <script type="text/javascript" src="./Swatch Book with CSS3 and jQuery_files/jquery.min.js.descarga"></script>
+		<script type="text/javascript" src="./Swatch Book with CSS3 and jQuery_files/jquery.swatchbook.js.descarga"></script>
+		<script type="text/javascript">
+			$(function() {
+			
+				$( '#sb-container' ).swatchbook( {
+					openAt : 0
+				} );
+			
+			});
+		</script>
+		<script src="./Swatch Book with CSS3 and jQuery_files/demoad.js.descarga"></script><div id="cdawrap"><span id="cda-remove" class="cda-remove" data-content="Continue to demo" aria-label="Close ad"></span><script type="text/javascript" async="" id="_carbonads_js" src="./Swatch Book with CSS3 and jQuery_files/carbon.js.descarga"></script><div id="carbonads"><span><span class="carbon-wrap"><a href="https://srv.carbonads.net/ads/click/x/GTND42QEC67IL53ECAY4YKQMCTYICK7YCWAICZ3JCWYD42QWF6BDE53KC6BITKQIF6ADTK3EHJNCLSIZ?segment=placement:codrops;" class="carbon-img" target="_blank" rel="noopener"><img src="./Swatch Book with CSS3 and jQuery_files/55565" alt="" border="0" height="100" width="130" style="max-width: 130px;"></a><a href="https://srv.carbonads.net/ads/click/x/GTND42QEC67IL53ECAY4YKQMCTYICK7YCWAICZ3JCWYD42QWF6BDE53KC6BITKQIF6ADTK3EHJNCLSIZ?segment=placement:codrops;" class="carbon-text" target="_blank" rel="noopener">Build better native apps for iOS and Android. Fuse: Write once. Write less.</a></span><a href="http://carbonads.net/?utm_source=codrops&amp;utm_medium=ad_via_link&amp;utm_campaign=in_unit&amp;utm_term=carbon" class="carbon-poweredby" target="_blank">ads via Carbon</a></span></div></div>
+    
+</body></html>

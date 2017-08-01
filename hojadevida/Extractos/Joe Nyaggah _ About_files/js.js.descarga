@@ -1,0 +1,38 @@
+/*	
+DanJoe Design  Swiss 1.0
+------------------------------------------------
+Author:			Joe Nyaggah
+Version: 		1.0
+Last Updated:	November 13 2009
+Copyright:		© 2009 Joe Nyaggah. All rights reserved.
+Author URI: 	http://danjoedesign.com/
+------------------------------------------------
+*/
+$(document).ready(function() {
+//hide comments when DOM is ready 
+//	$('ol.commentlist, form.comment_form').hide();
+//
+//	$('#bigImage').hide();
+////show/hide comments
+//	$('a.showComments').click(function() {
+//		$('ol.commentlist, form.comment_form').slideToggle(150);
+//		return false;
+//	});
+//
+//						   
+						   
+						   
+// sliding the project(s)
+
+    $('#iterations').cycle({
+        fx:     'fade',
+        speed:  300,
+        timeout: 0,
+        pager:  '#iterationsNav',
+        pagerAnchorBuilder: function(idx, slide) {
+            // return sel string for existing anchor
+            return '#iterationsNav li:eq(' + (idx) + ') a';
+        }
+    });	
+	
+});

@@ -1,0 +1,216 @@
+.banner {
+    background: url(../images/portada.jpg);
+    background-size: cover;
+    height: 600px;
+
+  }
+  .banner300 {
+height: 300px;
+
+  }
+.w3agile-footer {
+  height: 200px;
+}
+.social-w3licon a, .w3agile-address ul li,.w3agile-address ul li a {
+
+    color: black;
+  }
+  .social-w3licon a:hover {
+
+      border-color: black;
+    }
+.espaciado {
+  padding: 1px;
+}
+.contenedor {
+  width: 100%;
+margin-top: 40px;
+  display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+  }
+
+
+}
+.col-md-8.col-sm-8.about-right.wthree {
+    width: 100%;
+}
+.col-md-8.col-sm-8.about-right.wthree.reseteando {
+    margin-top: 60px;
+  }
+.importacion1 {
+  position:relative;
+    width:200px;
+    height:auto;
+    margin:0 auto;
+    background-color:#061322;
+
+}
+.about-body {
+  background: #ddd url(../images/egg_shell.jpg) repeat top left;
+
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.reseteando {width: 100%!important;}
+.sb-container div {
+  height: 300px!important;
+
+}
+
+#checkSkills {
+position: relative;
+    left: 109px;
+    font-size: 30px;
+  }
+.main {
+  width: auto!important;
+  overflow: inherit!important;!/* IDEA:ocultando   */
+}
+.icon-cog:before {
+    content: '\31'!important;
+  }
+  .icon-flight:before {
+    content: '\32'!important;
+}
+.icon-eye:before {
+    content: '\33'!important;
+}
+.icon-install:before {
+    content: '\34'!important;
+}
+.icon-bag:before {
+    content: '\35'!important;
+}
+.icon-globe:before {
+    content: '\36'!important;
+}
+.icon-picture:before {
+    content: '\37'!important;
+}
+.icon-video:before {
+    content: '\38'!important;
+}
+.icon-download:before {
+    content: '\39'!important;
+}
+.icon-mobile:before {
+    content: '10'!important;
+}
+.icon-camera:before {
+    content: '11'!important;
+}
+.sb-container div h4 {
+    position: absolute;
+    top: 70px;
+  }
+/*ESTILOS PERSONALIZADOS REGISTRADOS*/
+
+.contenedor1 {
+  width: 200px;
+    height: 150px;
+  }
+  .sb-container {position: relative;!important; margin: inherit!important;}
+  #contenedor1 {
+    z-index: 1;
+    top: 106px;
+    position: relative;
+}
+
+.contenedorFlex {
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+      margin-top: 40px;
+}
+
+  .textoAzul {    font-size: 41px!important;
+    font-family: gadget;
+    color: cornflowerblue!important;
+        text-align: center;
+  }
+  .about {
+    padding: inherit;
+  }
+  .textoAzulPequeño {
+font-size: 21px!important;  }
+
+#concretoAbout {
+  width: 100%;
+    min-height: 134px;
+    position: absolute;
+    z-index: -1;
+    top: 50px;}
+.contenedorDivs {
+  width: 200px;
+    height: 150px;
+    position: relative;
+}
+#html,
+#css,
+#js, #sql, #cms, #git, #linux, #dns, #bind, #wampLamp, #ajax {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+.social-wthree-icons {}
+  .textoAzulPequeño {  color: #645b5c!important;}
+#html,
+#css,
+#js,  #sql, #cms, #git, #linux, #dns, #bind, #wampLamp, #ajax {display: none; top: auto;}
+#html {display: block;}
+.w3agile-footer {
+    background: inherit!important;
+  /*.contenedorDivs {display: none;}*/
+}
+/*ESTILOS PERSONALIZADOS REGISTRADOS*/
+/*media quieries-->*/
+@media only screen and (max-width: 600px) {
+    .sb-container div {
+height: 200px!important;
+    }
+
+#contenedor1 {
+top: auto; margin-bottom: -70px;
+}
+.textoAzul {
+    font-size: 20px!important;}
+  #titulo {text-align: center;}
+  #checkSkills {font-size: 22px; left: 103px;}
+  #html, #css, #js, #sql, #cms, #git, #linux, #dns, #bind, #wampLamp, #ajax {
+    top: auto;
+    margin-top: -110px;
+}
+.contenedorSeparador {
+margin-top: 270px;
+
+}
+h2.textoAzul.textoAzulPequeño {
+background-color: transparent;
+}
+}
+p { font-size: 120%; }
+
+@media (max-width:1100px) and (min-width:600px) {
+  h2.textoAzul.textoAzulPequeño {
+background-color: white;
+
+}
+.logos {width: 60%!important;}
+}​
+
+/*MEDIA QUERIES PARA PANTALLAS SUPERIORES A 1300PX*/
+@media only screen and (min-width: 1300px) {
+
+  .sb-container div {
+    height: 350px!important; width: 120%!important;
+
+  }
+
+}
+}
