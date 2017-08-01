@@ -158,8 +158,8 @@ font-size: 21px!important;  }
   left: 0;
   text-align: center;
 }
-.social-wthree-icons {}
-  .textoAzulPequeño {  color: #645b5c!important;}
+
+  .textoAzulPequeño, .textoGris  {  color: #645b5c!important; background-color: blue;}
 #html,
 #css,
 #js,  #sql, #cms, #git, #linux, #dns, #bind, #wampLamp, #ajax {display: none; top: auto;}
